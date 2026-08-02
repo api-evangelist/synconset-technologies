@@ -1,8 +1,17 @@
 aid: synconset-technologies
 name: SyncOnSet Technologies
-description: SyncOnSet Technologies is a company surfaced as a portfolio company of techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  SyncOnSet Technologies is an Emmy Award-winning digital continuity, inventory,
+  and money-tracking platform for film and television production, now part of
+  Entertainment Partners. It replaces paper continuity binders with a
+  collaborative online/offline web and mobile app that manages automatic script
+  breakdowns and revisions, continuity photos, costume and wardrobe pieces, hair
+  and makeup looks, props, set decoration, and locations, alongside per-character
+  and per-scene budgeting and asset reports from prep through wrap. SyncOnSet is
+  a login-gated SaaS application (production teams access it by account) and
+  exposes no public developer API, OpenAPI, or self-serve developer program, so
+  this profile captures its identity, published web properties, and a
+  domain-security probe rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/synconset-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +19,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.synconset.com/dist/favicon.ico
 tags:
 - Company
+- Film Production
+- Television Production
+- Continuity
+- Wardrobe
+- Costume Design
+- Production Management
+- Inventory Management
+- Media and Entertainment
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +53,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://synconset.com/
+  url: https://www.synconset.com/home/
+- type: Blog
+  url: https://www.synconset.com/home/blog/
+- type: Support
+  url: https://support.synconset.com/
+- type: HelpCenter
+  url: https://www.synconset.com/home/customer-resources/help-center/
+- type: Login
+  url: https://www.synconset.com/index.php?r=site/login
+- type: PrivacyPolicy
+  url: https://www.ep.com/legal/privacy-notice/
+- type: TermsOfService
+  url: https://www.ep.com/legal/terms-and-conditions/
+- type: MobileApp
+  url: https://play.google.com/store/apps/details?id=com.synconset
+- type: DomainSecurity
+  url: security/synconset-technologies-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
